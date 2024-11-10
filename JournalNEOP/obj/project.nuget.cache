@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xjp3zk0lZ/1q3ZGpr+tX0JSxgLRX3gF+TMKkBWPK/ehV1Lr49w1e2eXdPZVmx0Zc2tYgdhfcoFRIrmHOck/zVg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\murad\\Documents\\Проекты\\AVSE\\JournalNEOP\\JournalNEOP.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект JournalNOEP_DOMAIN несовместим с netcoreapp2.2 (.NETCoreApp,Version=v2.2). Проект JournalNOEP_DOMAIN поддерживает: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "JournalNOEP_DOMAIN",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
+}

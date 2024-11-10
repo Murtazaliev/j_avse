@@ -1,0 +1,8 @@
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\bin\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.deps.json
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\bin\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.dll
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\bin\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.pdb
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\obj\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.csprojAssemblyReference.cache
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\obj\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.AssemblyInfoInputs.cache
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\obj\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.AssemblyInfo.cs
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\obj\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.dll
+F:\Проекты\AVSE\JournalNOEP_DOMAIN\obj\Debug\netcoreapp2.2\JournalNOEP_DOMAIN.pdb

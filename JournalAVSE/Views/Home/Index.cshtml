@@ -1,0 +1,103 @@
+﻿@model MainViewModel
+
+
+
+<partial name="~/Views/Home/PartialHeader.cshtml" />
+<!-- start banner Area -->
+<section class="banner-area relative">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row fullscreen d-flex justify-content-center align-items-center">
+            <div class="banner-content col-lg-10 col-md-12 justify-content-center mt-150">
+
+                @if (MainViewModel.Language != "EN")
+                {
+                    <h6 class="text-uppercase">Международный НАУЧНЫЙ электронный ЖУРНАЛ</h6>
+                    <h1>
+
+                        АКТУАЛЬНЫЕ ВОПРОСЫ СОВРЕМЕННОЙ ЭКОНОМИКИ
+                    </h1>
+                    <p class="text-white mx-auto" style="font-size:16px;">
+                        Свидетельство о регистрации средства массовой информации Федеральной службой по надзору в сфере, информационных технологий и массовых коммуникаций (Роскомнадзор) <strong>ЭЛ № ФС 77-76994</strong> от 11.10.2019 года
+                    </p>
+                    <a asp-action="Index" asp-controller="Editions" class="primary-btn squire text-uppercase mt-10">Последний выпуск</a>
+
+
+                }
+                else
+                {
+
+                    <h6 class="text-uppercase">Science Magazine</h6>
+                    <h1>
+
+                        TOPICAL ISSUES OF THE MODERN ECONOMY
+
+                    </h1>
+                    <p class="text-white mx-auto" style="font-size:16px;">
+                        Certificate of registration of the mass media by the Federal Service for the Supervision of Information Technologies and Mass Communications (Roskomnadzor) <strong> EL No. FS 77-76994 </strong> of 10/11/2019
+                    </p>
+                    <a asp-action="Index" asp-controller="Editions" class="primary-btn squire text-uppercase mt-10">Latest issue</a>
+
+                }
+                <div class="container" style="margin-top:100px;">
+                    <div class="row">
+                        <div class="col-6 pt-15">
+                            <div>
+                                <a href="http://obrazovanie.com.ru/index.php/partnery-olimpiady" target="_blank">
+                                    <img src="~/img/conf.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6"><a href="http://qrcoder.ru" target="_blank"><img src="http://qrcoder.ru/code/?http%3A%2F%2Fwww.xn--80ae9b7b.xn--p1ai%2F&4&0" width="148" height="148" border="0" title="QR код"></a></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+<!-- Start item-category Area -->
+<!-- End item-category Area -->
+<!-- Start about-video Area -->
+@foreach (var item in Model.DataInfoList)
+{
+    if (item.IsSectionOnMainPage == true)
+    {
+
+        <section class="about-video-area section-gap">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 about-video-left">
+                        <h1>
+                            @item.InfoNameRu
+                        </h1>
+                        <label>
+                            @Html.Raw(item.InfoTextRu)
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    }
+}
+<!-- End about-video Area -->
+<!-- start footer Area -->
+<footer class="footer-area section-gap">
+    <div class="container">
+
+        <div class="col-lg-12">
+            <p class="footer-text">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright © НП «ДТИПБ» 2013
+                @*<script>document.write(new Date().getFullYear());</script>*@
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+
+</footer>
+<!-- End footer Area -->
